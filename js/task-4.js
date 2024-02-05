@@ -1,14 +1,14 @@
 function getShippingCost(country) {
     let price;
-    switch (country.toUpperCase()) {
-        case "CHINA": price = 100;
+    switch (country) {
+        case "China": price = 100;
             break;
-        case "CHILE": price = 250;
+        case "Chile": price = 250;
             break;
-        case "AUSTRALIA": price = 170;
+        case "Australia": price = 170;
             break;
-        case "JAMAICA":
-            price = 170;
+        case "Jamaica":
+            price = 120;
             break;
         default: return "Sorry, there is no delivery to your country";
     }
